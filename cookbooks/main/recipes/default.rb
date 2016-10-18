@@ -84,7 +84,7 @@
 #include_recipe "logrotate"
 #
 #uncomment to use the solr recipe
-#include_recipe "solr"
+include_recipe "solr"
 
 #include_recipe "varnish_frontend"
 
